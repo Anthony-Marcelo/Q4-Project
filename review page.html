@@ -35,20 +35,20 @@
 
             <br>
 
-            <form id="submitForm">
+            <form name="submitForm">
                 <div class="form-group">
                     <center>
                         <div required>
+                        <input type="checkbox" required>
+                            <label style="margin-right: 20px;"> Accepted </label>
                         <input type="checkbox">
-                            <label for="size" style="margin-right: 20px;"> Accepted </label>
-                        <input type="checkbox" >
-                            <label for="size"> Rejected </label>
+                            <label> Rejected </label>
                         </div>
                         <br>
 
                         <label>Letter of Acceptance</label>
                     </center>
-                    <div required>
+                    <div>
                         <textarea class="form-control" rows="5" placeholder="Type a message. . ." required></textarea>
                     </div>
                
@@ -56,7 +56,7 @@
                 <br>
                 <div class="form-inline">
                     <a href="index.html" style="margin-left: 91.5px;">
-                        <button onclick="window.location.href='index.html'" type="submit" class="btn btn-outline-success" value="Submit">Submit</button>
+                        <button onclick="alert('Thank you for your consideration.');" class="btn btn-outline-success">Submit</button>
                     </a>
                     <pre>   </pre>
                     <a href="portfolio_l.html" style="margin-right: 91.5px;">
